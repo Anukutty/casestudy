@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:28:02.843Z",
+        "line": 11,
+        "name": "Successfull Login",
+        "description": "",
+        "id": "login;successfull-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24030109400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in the login page",
+            "match": {
+              "location": "Loginpage.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261569300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user will enter the \"Lalitha\" and \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 34
+                }
+              ],
+              "location": "Loginpage.user_will_enter_the_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426749900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "Loginpage.clicks_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User does successfull Login",
+            "match": {
+              "location": "Loginpage.user_does_successfull_Login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:c4/jenkinsample.feature",
+    "tags": []
+  }
+]
